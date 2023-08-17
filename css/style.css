@@ -1,0 +1,57 @@
+p,
+a {
+  font-size: 30px;
+  color: white;
+}
+label,
+input,
+select {
+  color: red;
+  font-size: 30px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+body {
+  background-color: black;
+}
+
+button {
+  background-color: black;
+  border-color: white;
+  border-width: 10px;
+}
+li {
+  color: white;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.warning-red {
+  color: red;
+}
+
+.index_Image {
+  width: 450px;
+  height: 350px;
+}
+
+.line {
+  display: flex;
+  gap: 10px;
+}
+
+.styled-checkbox {
+  width: 20px;
+  height: 20px;
+}

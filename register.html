@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mysterious trade fair</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="./image/img1.jpg" class="index_Image" />
+      <form>
+        <p>Want to join our trade fair ?</p>
+        <div class="line">
+          <label for="companyName">Company name</label>
+          <input
+            type="text"
+            id="companyName"
+            name="companyName"
+            placeholder="company name"
+            required
+          />
+        </div>
+        <div class="line">
+          <label for="boothSize">select booth size</label>
+          <select id="boothSize" name="boothSize" required>
+            <option value="" disabled selected>select booth size</option>
+            <option value="10x10">10x10</option>
+            <option value="10x15">10x15</option>
+          </select>
+        </div>
+        <div class="line">
+          <label>Need table for the booth ?</label>
+          <input
+            type="checkbox"
+            id="tableNeed"
+            name="tableNeed"
+            class="styled-checkbox"
+            required
+          />
+        </div>
+        <div class="line">
+          <label for="chairCount">Chair</label>
+          <input
+            type="number"
+            id="chairCount"
+            name="chairCount"
+            placeholder="how many chair"
+            required
+          />
+        </div>
+        <div class="line">
+          <label for="contactName">Contact's name</label>
+          <input
+            type="text"
+            id="contactName"
+            name="contactName"
+            placeholder="contact name"
+            required
+          />
+        </div>
+        <div class="line">
+          <label for="contactNumber">Contact's number</label>
+          <input
+            type="text"
+            id="contactNumber"
+            name="contactNumber"
+            placeholder="contact number"
+            required
+          />
+        </div>
+
+        <button class="btn"><p>Submit booth application</p></button>
+      </form>
+    </div>
+  </body>
+</html>
