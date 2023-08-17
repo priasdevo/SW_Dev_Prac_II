@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="register.js"></script>
   <head>
     <title>Mysterious trade fair</title>
-    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div class="container">
@@ -16,7 +17,6 @@
             id="companyName"
             name="companyName"
             placeholder="company name"
-            required
           />
         </div>
         <div class="line">
@@ -34,7 +34,6 @@
             id="tableNeed"
             name="tableNeed"
             class="styled-checkbox"
-            required
           />
         </div>
         <div class="line">
@@ -44,7 +43,6 @@
             id="chairCount"
             name="chairCount"
             placeholder="how many chair"
-            required
           />
         </div>
         <div class="line">
@@ -54,7 +52,6 @@
             id="contactName"
             name="contactName"
             placeholder="contact name"
-            required
           />
         </div>
         <div class="line">
@@ -64,11 +61,12 @@
             id="contactNumber"
             name="contactNumber"
             placeholder="contact number"
-            required
           />
         </div>
 
-        <button class="btn"><p>Submit booth application</p></button>
+        <button class="btn" onclick="submitHandle()">
+          <p>Submit booth application</p>
+        </button>
       </form>
     </div>
   </body>
